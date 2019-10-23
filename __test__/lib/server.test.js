@@ -1,6 +1,6 @@
 'use strict';
 
-const { server } = require('../../lib/server.js');
+const { server } = require('../../__test__/lib/server.js');
 const supergoose = require('../supergoose.js');
 const mockRequest = supergoose(server);
 
