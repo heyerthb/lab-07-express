@@ -1,0 +1,25 @@
+{
+  "name": "api-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint **/*.js",
+    "start": "node index.js",
+    "test": "jest --verbose",
+    "test-watch": "jest --watchAll --verbose --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "eslint": "^6.5.1",
+    "express": "^4.17.1",
+    "express-swagger-generator": "^1.1.15",
+    "jest": "^24.9.0",
+    "superagent": "^5.1.0",
+    "supergoose": "^0.2.6",
+    "supertest": "^4.0.2"
+  }
+}
